@@ -1,6 +1,5 @@
 # svgosu
-svgosu is a Node.js library and command-line application 
-for converting SVG files to .osu objects.
+svgosu is a Node.js library and command-line application for converting SVG files to .osu objects.
 ## Installation
 ```
 npm install -g svgo
