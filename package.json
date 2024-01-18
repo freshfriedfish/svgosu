@@ -8,5 +8,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "ml-matrix": "^6.11.0",
+    "osu-classes": "^3.0.1",
+    "osu-parsers": "^4.1.6",
+    "parse-svg-path": "^0.1.2"
+  }
 }
