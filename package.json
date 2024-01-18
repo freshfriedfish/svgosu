@@ -1,13 +1,20 @@
 {
-  "name": "svgosucli",
+  "name": "svgosu",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "bin": {
+    "svgosu": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freshfriedfish/svgosu.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "freshfriedfish",
   "license": "ISC",
   "dependencies": {
     "commander": "^11.1.0",
@@ -15,5 +22,8 @@
     "osu-classes": "^3.0.1",
     "osu-parsers": "^4.1.6",
     "parse-svg-path": "^0.1.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
