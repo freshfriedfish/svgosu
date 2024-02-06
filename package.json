@@ -1,7 +1,7 @@
 {
   "name": "svgosu",
   "version": "1.0.0",
-  "description": "a Node.js library and command-line application for converting SVG files to .osu objects.",
+  "description": "a Node.js library and command-line application to convert SVG paths to .osu objects.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -17,12 +17,13 @@
   "author": "freshfriedfish",
   "license": "ISC",
   "dependencies": {
+    "abs-svg-path": "^0.1.1",
     "commander": "^11.1.0",
     "ml-matrix": "^6.11.0",
+    "normalize-svg-path": "^1.1.0",
     "osu-classes": "^3.0.1",
     "osu-parsers": "^4.1.6",
-    "parse-svg-path": "^0.1.2",
-    "path-data-polyfill": "^1.0.4"
+    "parse-svg-path": "^0.1.2"
   },
   "devDependencies": {
     "jest": "^29.7.0"
