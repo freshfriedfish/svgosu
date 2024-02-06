@@ -13,8 +13,7 @@ program.command('path')
     .argument('<svgPath>', 'path attribute')
     .action((svgPath) => {
         const parsedPath = parsePath(svgPath);
-        console.log(parsedPath); //"M43 110C100 69 167 167 226 116C318 183 372 75 350 43"
-
+        //"M43 110C100 69 167 167 226 116C318 183 372 75 350 43"
         const commands = parsedPath.map((elem) => elem.shift());
 
         console.log(commands);
