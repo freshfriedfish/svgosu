@@ -1,6 +1,6 @@
 {
   "name": "svgosu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a Node.js library and command-line application to convert SVG paths to .osu objects.",
   "main": "index.js",
   "scripts": {
