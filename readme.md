@@ -1,4 +1,4 @@
-
+# svgosu
 ## Installation
 ```
 npm install -g svgosu
@@ -16,5 +16,5 @@ or
 ```
 svgosu -h
 ```
-# svgosu
+## credits
 All code written with ❤️ by [freshfriedfish](https://freshfriedfish.github.io/)
